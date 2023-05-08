@@ -6,3 +6,6 @@ Is there any difference in stroke incidence between rural and urban areas?
 What is the distribution of patients with hypotension or heart disease? Is the incidence of stroke higher in patients with these conditions?
 Does work related stress,low physical activity and long working hours associate to risk of having stroke?
 Is proportion of stroke higher in female than male?
+
+
+![th1](https://user-images.githubusercontent.com/120978882/218876515-622dc808-a252-408f-ab6f-e5c29a97bd1f.jpeg)
