@@ -8,4 +8,4 @@ Does work related stress,low physical activity and long working hours associate 
 Is proportion of stroke higher in female than male?
 
 
-![th1](https://user-images.githubusercontent.com/120978882/218876515-622dc808-a252-408f-ab6f-e5c29a97bd1f.jpeg)
+![th1](https://images.ctfassets.net/yixw23k2v6vo/3WpTUk6z52hVzvtTsPaWT/ef7c4d18a15e79f3d3533355ae380411/iStock-1168179082.jpg)
