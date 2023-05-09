@@ -1,11 +1,11 @@
 # Stroke_Analysis
 Goal: Detection (Prediction) of the possibility of a stroke in a person based on various parameters
-Data exploration and model building will answer the following questions: 
-How does the incidence of stroke vary based on the patient's smoking status? Are former smokers at a higher risk of stroke than current smokers or non-smokers?
-Is there any difference in stroke incidence between rural and urban areas?
-What is the distribution of patients with hypotension or heart disease? Is the incidence of stroke higher in patients with these conditions?
-Does work related stress,low physical activity and long working hours associate to risk of having stroke?
-Is proportion of stroke higher in female than male?
+- Data exploration and model building will answer the following questions: 
+- How does the incidence of stroke vary based on the patient's smoking status? Are former smokers at a higher risk of stroke than current smokers or non-smokers?
+- Is there any difference in stroke incidence between rural and urban areas?
+- What is the distribution of patients with hypotension or heart disease? Is the incidence of stroke higher in patients with these conditions?
+- Does work related stress,low physical activity and long working hours associate to risk of having stroke?
+- Is proportion of stroke higher in female than male?
 
 
 ![th1](https://images.ctfassets.net/yixw23k2v6vo/3WpTUk6z52hVzvtTsPaWT/ef7c4d18a15e79f3d3533355ae380411/iStock-1168179082.jpg)
@@ -37,12 +37,12 @@ Model Evaluation:
 After training the models, their performance is evaluated using two metrics accuracy and ROC-AUC. Accuracy measures the percentage of correct predictions made by the model. Accuracy can be misleading when the dataset is imbalanced. This is because the model can achieve high accuracy by simply predicting the majority class for all instances. ROC AUC, on the other hand, is a metric that measures the performance of a binary classifier over all possible thresholds. It plots the True Positive Rate (TPR) against the False Positive Rate (FPR) for different thresholds and calculates the area under the curve (AUC).
 
 Conclusion :
-1.Through Exploratory Data Analysis it can be interpreted that Avg glucose level, BMI, Hypertension and heart disease are the biggest risk factors for stroke.
-2.From our three models ie. Decision tree, Random forest and Logistic regression , Random forest gives best accuracy.
+- 1.Through Exploratory Data Analysis it can be interpreted that Avg glucose level, BMI, Hypertension and heart disease are the biggest risk factors for stroke.
+- 2.From our three models ie. Decision tree, Random forest and Logistic regression , Random forest gives best accuracy.
 Logistic Regression gives best ROC-AUC curve than Decision tree and Random forest.
-3.Considering the significant class imbalance in the dataset, accuracy may not be an appropriate metric for evaluating the models. 
-4.If the goal is to optimize the model's performance in identifying stroke cases, even at the cost of some false positives, ROC-AUC may be a more appropriate metric to use. 
-5.If the cost of false positives is very high, and a balance between precision and recall is desired, accuracy may be a better metric to use.
+- 3.Considering the significant class imbalance in the dataset, accuracy may not be an appropriate metric for evaluating the models. 
+- 4.If the goal is to optimize the model's performance in identifying stroke cases, even at the cost of some false positives, ROC-AUC may be a more appropriate metric to use. 
+- 5.If the cost of false positives is very high, and a balance between precision and recall is desired, accuracy may be a better metric to use.
 
 
 
