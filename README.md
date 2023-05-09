@@ -37,12 +37,12 @@ Model Evaluation:
 After training the models, their performance is evaluated using two metrics accuracy and ROC-AUC. Accuracy measures the percentage of correct predictions made by the model. Accuracy can be misleading when the dataset is imbalanced. This is because the model can achieve high accuracy by simply predicting the majority class for all instances. ROC AUC, on the other hand, is a metric that measures the performance of a binary classifier over all possible thresholds. It plots the True Positive Rate (TPR) against the False Positive Rate (FPR) for different thresholds and calculates the area under the curve (AUC).
 
 Conclusion :
-- 1.Through Exploratory Data Analysis it can be interpreted that Avg glucose level, BMI, Hypertension and heart disease are the biggest risk factors for stroke.
-- 2.From our three models ie. Decision tree, Random forest and Logistic regression , Random forest gives best accuracy.
+- Through Exploratory Data Analysis it can be interpreted that Avg glucose level, BMI, Hypertension and heart disease are the biggest risk factors for stroke.
+- From our three models ie. Decision tree, Random forest and Logistic regression , Random forest gives best accuracy.
 Logistic Regression gives best ROC-AUC curve than Decision tree and Random forest.
-- 3.Considering the significant class imbalance in the dataset, accuracy may not be an appropriate metric for evaluating the models. 
-- 4.If the goal is to optimize the model's performance in identifying stroke cases, even at the cost of some false positives, ROC-AUC may be a more appropriate metric to use. 
-- 5.If the cost of false positives is very high, and a balance between precision and recall is desired, accuracy may be a better metric to use.
+- Considering the significant class imbalance in the dataset, accuracy may not be an appropriate metric for evaluating the models. 
+- If the goal is to optimize the model's performance in identifying stroke cases, even at the cost of some false positives, ROC-AUC may be a more appropriate metric to use. 
+- If the cost of false positives is very high, and a balance between precision and recall is desired, accuracy may be a better metric to use.
 
 
 
